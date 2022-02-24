@@ -44,6 +44,8 @@ console.log(qdata.month); //returns 'september'
 
 ```
 
+<br>
+<hr>
 
 ## 4. NPM or Yarn?
 - Fast: Yarn caches every package it downloads so it never needs to again. It also parallelizes operations to maximize resource utilization so install times are faster than ever.
@@ -55,3 +57,10 @@ console.log(qdata.month); //returns 'september'
 - Multiple Registries: Install any package from either npm or Bower and keep your package workflow the same.
 - Network Resilience: A single request failing won't cause an install to fail. Requests are retried upon failure.
 - Flat Mode: Resolve mismatching versions of dependencies to a single version to avoid creating duplicates.
+
+
+<br>
+<hr>
+
+## 5. What is middleware?
+- Anything between the request and response such as route handlers
