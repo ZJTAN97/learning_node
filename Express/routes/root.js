@@ -6,12 +6,4 @@ router.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "views", "index.html"));
 })
 
-router.get("/new", (req, res) => {
-    res.sendFile(path.join(__dirname, "..", "views", "new.html"));
-})
-
-router.get("/old", (req, res) => {
-    res.redirect(301, "/new");
-})
-
 module.exports = router;

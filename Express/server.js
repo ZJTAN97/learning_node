@@ -2,6 +2,7 @@ const path = require('path');
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
 const cors = require("cors");
+const corsOptions = require("./config/corsOptions");
 const PORT = process.env.PORT || 3500;
 const express = require('express');
 const app = express();
@@ -9,18 +10,7 @@ const app = express();
 // custom middleware logger
 app.use(logger);
 
-// apply cross origin resource sharing middleware
-const whitelist = ["http://127.0.0.1:8080", "http://localhost:3500"];
-const corsOptions = {
-    origin: (origin, callback) => {
-        if(whitelist.indexOf(origin) !== -1 || !origin) {
-            callback(null, true);
-        } else {
-            callback(new Error("Not allowed by CORS"));
-        }
-    },
-    optionsSuccessStatus: 200
-}
+// Cross Origin Resource Sharing
 app.use(cors(corsOptions));
 
 // built in middleware to handle urlencoded data
@@ -32,11 +22,9 @@ app.use(express.json());
 
 // serve static files
 app.use(express.static(path.join(__dirname, "/public")));
-app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
 // routes
 app.use("/", require("./routes/root"));
-app.use("/subdir", require("./routes/subdir"));
 app.use("/employees", require("./routes/api/employees"));
 
 
@@ -55,7 +43,5 @@ app.all("*", (req, res) => {
 
 // "Error page", 500 custom error handler
 app.use(errorHandler);
-
-
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

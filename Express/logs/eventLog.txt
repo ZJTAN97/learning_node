@@ -81,3 +81,27 @@
 20220302	11:24:59	20fe72aa-e4e8-4f56-9626-6c0dafa7099a	POST	undefined	/employees
 20220302	11:25:03	49973e2f-39c0-4285-99c1-2b790494143d	POST	undefined	/employees
 20220302	11:25:03	b0346c01-c5f1-4236-9b6e-58c9e9377a69	POST	undefined	/employees
+20220304	12:54:19	36429456-9bae-4105-85bb-2e496c303389	POST	undefined	/employees
+20220304	12:54:19	520a84c0-bcf0-4fdf-9635-8c71d1232c61	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:55:21	0f2ee2b5-7d19-4e56-a735-bce7eb3d8357	POST	undefined	/employees
+20220304	12:55:21	d62c1803-bd4e-4094-aee2-16503815eaca	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:55:30	3aeaaf7b-1a9e-4cf3-abec-06264b2ba1c8	GET	undefined	/employees
+20220304	12:55:31	7185c0f0-62e6-4e36-9b08-ef4f22341670	GET	undefined	/employees
+20220304	12:56:33	b3259740-2eaa-470f-b35a-cabefbff7b1b	POST	undefined	/employees
+20220304	12:56:33	5308f6d0-26b2-4462-9055-71b274d748dc	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:57:10	e27c972d-4648-4d94-90a1-8a79e7ce7d63	POST	undefined	/employees
+20220304	12:57:10	952d95f7-1a53-45f4-8fc1-180f69bea498	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:57:46	94a581d4-d5a9-4c56-81fc-b42a583eb6dd	POST	undefined	/employees
+20220304	12:57:46	85b9e35c-f7bd-4255-90dc-83352082f05c	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:58:12	7d6a0ce2-8d7e-4f39-8121-f05e599f15c5	POST	undefined	/employees
+20220304	12:58:12	d24bab66-0126-48b4-8721-6254fc7a1a3d	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:58:27	e31aaf66-ece2-4438-9955-1bc453ef9de6	POST	undefined	/employees
+20220304	12:58:27	2d50c170-202b-4b56-9fe6-4e487ae58443	TypeError: Cannot read properties of undefined (reading 'id')
+20220304	12:58:38	95c7b37e-4808-4a88-b3da-b8921aeebe6a	POST	undefined	/employees
+20220304	12:59:12	7d14a1b2-5847-453b-a3d9-ee3c3dec4d81	PUT	undefined	/employees
+20220304	12:59:24	33dedc18-02b4-40d0-81b9-7879a2048fd5	PUT	undefined	/employees
+20220304	12:59:28	da0cbb5e-4ec7-4ae2-85b4-aebba08dd9dd	PUT	undefined	/employees
+20220304	12:59:29	eeb21e4c-780c-421f-ba35-5d2b03b4efe5	PUT	undefined	/employees
+20220304	12:59:36	db3888f8-6dc2-4758-9515-2422921bbe4b	PUT	undefined	/employees
+20220304	12:59:43	62afd742-c0eb-47a1-8ea7-0bf25cecca4f	DELETE	undefined	/employees
+20220304	12:59:45	a77a6d40-8665-4ccf-b65a-9b3473306545	DELETE	undefined	/employees
