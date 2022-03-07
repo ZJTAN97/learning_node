@@ -186,3 +186,13 @@
 20220307	09:12:59	734a93eb-b8f1-43ad-88ca-5406599df13b	GET	undefined	/logout
 20220307	09:20:11	c04e5e25-28f2-4f31-b96f-a0fcecaa569a	GET	undefined	/logout
 20220307	09:20:54	e605a123-3eeb-4cd3-b2ea-f00346104e3f	GET	undefined	/logout
+20220307	09:45:51	902ed158-5a04-4ab3-9af4-fdaae52138d9	GET	undefined	/employees
+20220307	09:45:55	e1dd5005-ec77-4bc7-b3f1-6d6f5a6d5629	GET	undefined	/employees
+20220307	09:46:03	9174779b-6c74-472b-abc0-a76712b1c40b	GET	undefined	/auth
+20220307	09:46:08	dee7ecf2-9151-4bf5-b235-9ed963da26ba	POST	undefined	/auth
+20220307	09:46:18	ec12a6e0-9ae7-4746-9c93-d442e87ced58	GET	undefined	/employees
+20220307	09:46:36	27bb9b6a-a458-470e-b28c-f54320aa2cde	GET	undefined	/auth
+20220307	09:46:40	6d73e615-5beb-4d99-876c-39c526d2e050	POST	undefined	/auth
+20220307	09:46:56	c39654b9-db64-4fae-a0f8-0589c2b8d3dd	POST	undefined	/auth
+20220307	09:47:10	3d3574df-3fb6-42fa-b41c-edd60268765d	GET	undefined	/employees
+20220307	09:47:24	4672f5ce-e64d-4df9-be51-231a554931d1	POST	undefined	/employees
